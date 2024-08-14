@@ -18,7 +18,7 @@ public class 캐스트형변환 {
 		
 		double d1 = 10.2;
 		
-		int num2 = (int)d1; //강제 형병환
+		int num2 = (int)d1; //강제 형변환
 		
 		System.out.println(num2);
 		
@@ -29,7 +29,7 @@ public class 캐스트형변환 {
 		 * 정수 연산 실수 => 실수
 		 * 정수 or 실수 연산 문자 => 문자
 		 */
-		double d2 =10 * 10.2;  //정수 연산 실수 = 실수
+		double d2 =10 + 10.2;  //정수 연산 실수 = 실수
 		
 		String str1 = 10 + "10.4"; // 정수 or 실수 연산 문자 = 문자
 		

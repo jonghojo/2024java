@@ -9,7 +9,7 @@ import java.util.Scanner;
  * 줄이동: alt + 상,하 방향키
  * 창 분할: ctrl + shift + [
  * 화면확대: ctrl + m
- * 부분캡쳐: 윈도우키+
+ * 주석: ctrl+/
  */
 
 public class 중괄호블럭 {
@@ -18,21 +18,21 @@ public class 중괄호블럭 {
 		// TODO Auto-generated method stub
 		int n = 100; //변수선언
 		n = 200;
+		int num = 10;
+		int num2 = 20;
+		int num3 = 30;
 		{
 			//블럭 안 내용은 블럭 내에서 만 사용가능
-			int num = 10;
 			System.out.println(num);
 		}
 		
 		
 		{
-			int num2 = 20;
 			System.out.println(num2);
 		}
 		
-		
+		    
 		{
-			int num3 = 30;
 			System.out.println(num3);
 		}
 		
@@ -42,7 +42,7 @@ public class 중괄호블럭 {
 		
 		System.out.println(line);
 		
-		int number = sc.nextInt();
+		int number = sc.nextInt(); //정수만 입력하기
 		System.out.println(number);
 		
 		
