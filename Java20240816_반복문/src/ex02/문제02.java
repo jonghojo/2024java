@@ -8,7 +8,8 @@ public class 문제02 {
 		// TODO Auto-generated method stub
 		Scanner sc = new Scanner(System.in);
 		//[]등어가야 nArr 사용한거다
-		int[] com = new int[5];
+		int count = sc.nextInt();
+		int[] com = new int[count];
 		//점수 표시-1
 //		for(int i=0; i<5; i++) {
 //			System.out.print(com[i] +",");

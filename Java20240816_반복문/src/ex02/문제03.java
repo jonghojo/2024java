@@ -6,15 +6,23 @@ public class 문제03 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int[] com = new int[5];
+		//com.length입력시 직접 수를 전체에입력하지 않아도 한번만 입력하면 된다
+		System.out.println("학생의 수를 입력하세요 :");
 		
-		System.out.println(com.length);
+		int count = sc.nextInt();
+		
+		System.out.printf("학생의 수 :%d명\n",count);
+		
+		int[] com = new int[count];
+		
+		System.out.printf("%d명의 점수\n",com.length);
 		
 		//int i = 0;
 		//com[i] = (int)(Math.radom()*101);
 //		for(int i=0; i < com.length; i++) {
 //			com[i] = (int)(Math.random()*101);
 //		}
+		
 		//입력
 		for(int i=0; i<com.length; i++) {
 //			System.out.printf("%d번째 학생의 점수를 입력하세요 :\n", i+1);
@@ -69,9 +77,9 @@ public class 문제03 {
 		// System.out.pintf("총점 :%d, 평균:%.2f\n", sum, (double)sum/com.length);
 		
 		//정렬-차후
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<com.length; i++) {
 			
-			for(int j=0; j<5-1-i; j++){
+			for(int j=0; j<com.length-1-i; j++){
 				if(com[j] > com[j+1]) {
 					int tmp =com[j];
 					com[j] = com[j+1];
@@ -79,7 +87,7 @@ public class 문제03 {
 				}
 			}
 		}
-		System.out.print("출력 ;");
+		System.out.print("출력 :");
 		for(int i=0; i<com.length; i++) {
 			System.out.print(com[i]+ " , ");
 		}

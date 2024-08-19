@@ -18,7 +18,8 @@ public class FotEx02 {
 //			sum += i;
 //				
 //		System.out.println("sum =" + sum);		
-
+		
+		// 입력한 숫자미만의 수들의 홀수만의 합 구하기(짝수시 i%2==0)으로 식 고치기
 		System.out.println("양의 정수 입력 :");
 		
 		int num = sc.nextInt();
