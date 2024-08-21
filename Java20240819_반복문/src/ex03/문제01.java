@@ -10,7 +10,7 @@ public class 문제01 {
 		int deposit = 0;
 		int withdrawal = 0;
 		
-		
+		//Integer.parseInt 연산을 위해서 사용하는 단어
 		Scanner sc = new Scanner(System.in);
 		
 		boolean run = true; //while문을 작동시키기위한 조건

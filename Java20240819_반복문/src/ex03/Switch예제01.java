@@ -30,7 +30,7 @@ public class Switch예제01 {
 //		}
 		
 		switch(n) {
-		case 12: // 정수와 문자열 가능
+		case 12: // 정수와 문자열 가능, 실수는 기입불가
 		case 1:
 		case 2:
 			System.out.println("겨울");

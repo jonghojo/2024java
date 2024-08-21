@@ -7,7 +7,7 @@ public class ClassEx02 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		
+		//생성자(객체 생성시 초기화역활)
 		book 해 = new book();
 		해.제목 = "해리포터";
 		해.저자 = "롤링";
@@ -23,12 +23,12 @@ public class ClassEx02 {
 }
 
 
-class book{
-
+class book{//클래스 선언
+	
 	int 판매 = 0;
 	int 입고 = 0;
 	int 총판매금액 =0;
-	
+	//필드선언(객체의 데이터 저장소)
 	String 제목;
 	String 저자;
 	int 가격;
@@ -36,7 +36,7 @@ class book{
 //	int 판매누적수량;
 	
 	Scanner sc = new Scanner(System.in);
-	
+	//메소드(객체의 동작으로 호출시 실행하는 블럭)
 	void info() {
 		System.out.printf("제목 :%s, 저자 :%s, 가격 :%d, 재고수량 :%d\n", 제목, 저자, 가격, 재고수량);
 	}

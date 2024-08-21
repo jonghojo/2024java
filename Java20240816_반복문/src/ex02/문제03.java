@@ -14,8 +14,8 @@ public class 문제03 {
 		System.out.printf("학생의 수 :%d명\n",count);
 		
 		int[] com = new int[count];
-		
-		System.out.printf("%d명의 점수\n",com.length);
+		//count = com.length
+//		System.out.printf("%d명의 점수\n",com.length);
 		
 		//int i = 0;
 		//com[i] = (int)(Math.radom()*101);
