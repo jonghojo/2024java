@@ -2,9 +2,9 @@ package EX02;
 
 public class MemberInit {
 	
-	String name;
-	int age;
-	int grade;
+	private String name;
+	private int age;
+	private int grade;
 	
 	
 	

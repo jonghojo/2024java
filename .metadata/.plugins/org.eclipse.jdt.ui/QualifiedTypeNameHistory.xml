@@ -1,17 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="java.util.Random"/>
-    <fullyQualifiedTypeName name="ex06.Student"/>
-    <fullyQualifiedTypeName name="Ex06.Student"/>
-    <fullyQualifiedTypeName name="Ex06.MathArrayUtils"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
-    <fullyQualifiedTypeName name="Ex08.Singleton"/>
-    <fullyQualifiedTypeName name="Ex01.Person"/>
-    <fullyQualifiedTypeName name="Ex01.Student"/>
-    <fullyQualifiedTypeName name="Ex01.SalesMan"/>
-    <fullyQualifiedTypeName name="Ex02.Person"/>
-    <fullyQualifiedTypeName name="Ex02.Student"/>
-    <fullyQualifiedTypeName name="Ex03.Job"/>
     <fullyQualifiedTypeName name="Ex03.Student"/>
     <fullyQualifiedTypeName name="Ex03.Person"/>
     <fullyQualifiedTypeName name="Ex01.Animal"/>
@@ -46,15 +34,30 @@
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="ex09.RentalTV"/>
     <fullyQualifiedTypeName name="ex09.Rentable"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="ex02.EqualsMain"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
     <fullyQualifiedTypeName name="ex05.StringTokenizerMain"/>
     <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
-    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Math"/>
     <fullyQualifiedTypeName name="실습3.Plane"/>
     <fullyQualifiedTypeName name="실습3.Airplane"/>
     <fullyQualifiedTypeName name="실습3.Cargoplane"/>
+    <fullyQualifiedTypeName name="ex01.AppleBox"/>
+    <fullyQualifiedTypeName name="ex01.OrangeBox"/>
+    <fullyQualifiedTypeName name="ex01.Orange"/>
+    <fullyQualifiedTypeName name="ex04.Product"/>
+    <fullyQualifiedTypeName name="ex07.BoxFactory"/>
+    <fullyQualifiedTypeName name="ex08.BoxFactory"/>
+    <fullyQualifiedTypeName name="ex09.BoxFactory"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="ex10.BoxFactory"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="ex11.Box"/>
+    <fullyQualifiedTypeName name="ex11.BoxFactory"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="ex12.Box"/>
+    <fullyQualifiedTypeName name="ex12.BoxFactory"/>
+    <fullyQualifiedTypeName name="연습문제.Container"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="java.lang.Override"/>
 </qualifiedTypeNameHistroy>

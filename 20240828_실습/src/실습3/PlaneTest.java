@@ -44,8 +44,8 @@ public class PlaneTest {
 	}
 	
 	public static void printTitle() {
-		System.out.println("Plane   fuelSize");
-		System.out.println("----------------");
+		System.out.println("Plane    fuelSize");
+		System.out.println("------------------");
 	}
 
 }
