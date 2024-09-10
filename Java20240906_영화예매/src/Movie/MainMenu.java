@@ -3,6 +3,7 @@ package Movie;
 import java.util.ArrayList;
 import java.util.List;
 
+
 public class MainMenu extends AbstractMenu{
 	
 	private static final MainMenu instance = new MainMenu(null);
@@ -49,7 +50,7 @@ public class MainMenu extends AbstractMenu{
 		}
 	}
 
-	private void reserve() {
+	private void reserve() {//영화예매
 		try {
 			List<Movie> movies = Movie.findAll();//영화 목록 보여주기
 			
@@ -58,7 +59,7 @@ public class MainMenu extends AbstractMenu{
 			
 			System.out.println("예매할 영화를 선택하세요: ");
 			
-			String movieId = sc.nextLine();
+			String movieId = sc.nextLine();  
 			
 			Movie movie = Movie.findAll(movieId);//예매 영화 선택
 			
@@ -71,9 +72,9 @@ public class MainMenu extends AbstractMenu{
 			
 			System.out.println("좌석을 선탣하세요(예:E-5)");
 			String seatName = sc.nextLine();
+			
+			
 			seats.mark(seatName); //좌석 예매하는 코드
-			
-			
 			//예매 객체 생성 및 저장
 			Reservation reservation =
 					new Reservation(movie.getId(), movie.getTitle(), seatName);
@@ -89,7 +90,7 @@ public class MainMenu extends AbstractMenu{
 		}
 	}
 
-	private void cancelReservation() {
+	private void cancelReservation() {//예매취소
 //		checkReservation();
 //		System.out.println("취소할 영화의 예매번호를 입력하세요.");
 //		Reservation.delete(sc.nextLine());
@@ -106,7 +107,7 @@ public class MainMenu extends AbstractMenu{
 		System.out.println("\n >> 삭제되었습니다.");
 	}
 
-	private void checkReservation() {
+	private void checkReservation() {//예매확인
 		System.out.println("예매번호를 입력하세요: ");
 		
 		try {
@@ -122,7 +123,7 @@ public class MainMenu extends AbstractMenu{
 		}
 	}
 
-	private boolean checkAdminPassword() {
+	private boolean checkAdminPassword() {//관리자 메뉴
 		System.out.println("관리자 비밀번호를 입력하세요 : ");
 		return "1234".equals(sc.nextLine());
 	}

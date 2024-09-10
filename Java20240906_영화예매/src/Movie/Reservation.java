@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.nio.Buffer;
 import java.time.Instant;
 import java.util.ArrayList;
 
@@ -41,7 +40,7 @@ public class Reservation {
 			
 		}
 		
-		public static Reservation findById(String reservationId) {
+		public static Reservation findById(String reservationId) {//예매확인
 			Reservation reservation = null;
 			BufferedReader br = null;
 			String line = null;
@@ -67,6 +66,8 @@ public class Reservation {
 			}
 			return null;
 		}
+		
+		
 		@Override
 		public String toString() {
 //			return "영화 :" + movieTitle + ", 좌석 :" + SeatName ;
@@ -99,7 +100,7 @@ public class Reservation {
 //			}
 //		}
 		
-		public static Reservation delete(String reservationid) {
+		public static Reservation delete(String reservationid) {//예매취소
 			Reservation reservation = null;
 			BufferedReader bf = null;
 			StringBuilder text = new StringBuilder();
@@ -137,7 +138,8 @@ public class Reservation {
 			return null;
 		}
 		//영화ID에 해당하는 예약 현황을 보여줌
-		public static ArrayList<Reservation> findMovieId(String movieId) {
+		public static ArrayList<Reservation> findMovieId(String movieId) {//영화예매
+			
 			 ArrayList<Reservation> reservations = new  ArrayList<Reservation>();
 			 
 			 BufferedReader bf = null;

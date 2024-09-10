@@ -63,7 +63,7 @@ public class Movie {
 				String[] temp = line.split(",");
 				
 				if(movieId.equals(temp[0])) {
-					new Movie(Long.parseLong(temp[0]),temp[1],temp[2]);
+					movie = new Movie(Long.parseLong(temp[0]),temp[1],temp[2]);
 					break;
 				}
 			}

@@ -1,7 +1,7 @@
 package Movie;
 
-import java.security.spec.ECFieldF2m;
 import java.util.ArrayList;
+
 
 public class Seats {
 	
